@@ -404,9 +404,9 @@ var plugin = {
         plugin.media_control();
 
     
-        setTimeout(function() {
-            plugin._audioNode.find('.btn_audio').trigger('click');
-        }, 6000);
+        // setTimeout(function() {
+        //     plugin._audioNode.find('.btn_audio').trigger('click');
+        // }, 6000);
         // plugin._audioNode.find('.btn_audio').trigger('click');
         
     }
