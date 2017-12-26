@@ -403,6 +403,15 @@ var plugin = {
         // 音频切换
         plugin.media_control();
 
+        setTimeout(function () {
+            plugin._audioNode.find('.btn_audio').trigger('click');
+        }, 1000);
+
+        setTimeout(function() {
+            plugin._audioNode.find('.btn_audio').trigger('click');
+        }, 2000);
+        // plugin._audioNode.find('.btn_audio').trigger('click');
+        
     }
 }
 plugin.init();

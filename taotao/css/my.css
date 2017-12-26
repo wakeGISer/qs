@@ -284,7 +284,7 @@ div {
 }
 
 .last-page-title {
-    font-size: 60px;
+    font-size: 40px;
     width: 162px;
     margin: auto;
 }
@@ -297,7 +297,7 @@ div {
 
 .last-page-line {
     width: 2px;
-    height: 340px;
+    height: 240px;
     background: #000000;
     float: left;
 }
