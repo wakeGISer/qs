@@ -405,11 +405,11 @@ var plugin = {
 
         setTimeout(function () {
             plugin._audioNode.find('.btn_audio').trigger('click');
-        }, 1000);
+        }, 3000);
 
         setTimeout(function() {
             plugin._audioNode.find('.btn_audio').trigger('click');
-        }, 2000);
+        }, 6000);
         // plugin._audioNode.find('.btn_audio').trigger('click');
         
     }
